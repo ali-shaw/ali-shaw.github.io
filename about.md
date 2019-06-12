@@ -16,13 +16,13 @@ description: >
 hide_description: true
 
 # TODO
-image: /assets/img/me.jpg
+#image: /assets/img/me.jpg
 ---
 
 The "Best Jekyll Theme by a Mile".
 {:.lead}
 
-![Screenshot](/assets/img/me.jpg){:.lead}
+{:.lead}
 Hydejack's cover page on a variety of screens.
 {:.figure}
 
