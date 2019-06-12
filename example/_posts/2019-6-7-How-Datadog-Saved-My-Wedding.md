@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Datadog Saved My Wedding
+image: /images/wedding_post/results.png
 ---
 
 Ok, the title is a bit exaggerated but the story is still true… With 9 months to go to my upcoming wedding, my beautiful fiancée was in full planning mode. Venue = booked, photographer = booked, florist = booked, her dress = bought. The next item on the list : the perfect pair of shoes. She had her heart set on the exact pair she wanted, her bridesmaids had all swooned over them, they matched the dress perfectly (or so she tells me!). There was only one problem: they were out of stock in her size!
@@ -25,7 +26,7 @@ Next I waited for the first check to make sure the flow recorded properly and wo
 
 ![image](/images/wedding_post/results.png)
 
-Later that very evening, to my amazement the check triggered a failure! The site was showing that the “SOLD OUT” button was no longer there, meaning it had been replaced with the “Add to Basket”
+Later that very evening, to my amazement the check triggered a failure! The site was showing that the “SOLD OUT” button was no longer there, meaning it had been replaced with the “Add to Basket” button instead!
 
 ![image](/images/wedding_post/email.png)
 
