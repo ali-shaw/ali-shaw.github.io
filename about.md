@@ -18,4 +18,4 @@ hide_description: true
 # TODO
 #image: /assets/img/me.jpg
 ---
-Born in Birmingham, I later moved to Lille in France at the age of 11. I studied at an international school where I obtained my International Baccalaureate
+Born in Birmingham, I later moved to Lille in France at the age of 11. I studied at an international school where I obtained my International Baccalaureate. 
