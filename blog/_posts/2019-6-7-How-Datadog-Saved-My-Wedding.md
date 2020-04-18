@@ -8,12 +8,12 @@ Ok, the title is a bit exaggerated but the story is still true… With 9 months 
 
 As a doting husband-to-be, I took it upon myself to make sure she would be happy. I contacted several shops, emailed customer support, even phoned their HQ! No joy.
 
-Then, one afternoon at work, the thought came to me - how could Datadog help solve my problems? The answer - the recently announced [Synthetic Browser Checks](https://www.datadoghq.com/blog/browser-tests/){:target="blank"}.
+Then, one afternoon at work, the thought came to me - how could Datadog help solve my problems? The answer - the then recently announced [Synthetic Browser Checks](https://www.datadoghq.com/blog/browser-tests/){:target="blank"}.
 
 The idea was simple - set up a Browser Check on the shoe website to check at regular intervals the status reported for her specific shoe size and to alert me when that dreaded “Out of Stock” message disappeared.
 
 **Creating the Browser Check**  
-Datadog Browser Tests allow the user to record any journey on a website to test/monitor a workflow. All I needed to do was configure a Browser Test that would load the page, select the shoe size and check an assertion for "Sold Out". If the test failed (i.e they no longer showed as “Sold Out”) I would get an email letting me know straight away!
+Datadog Browser Tests allow the user to record any journey on a website to test/monitor a workflow.
 
 Thanks to the built in Web Recorder I could configure via the GUI, with no coding required, the steps required for my check.
 
@@ -26,14 +26,16 @@ Next I waited for the first check to make sure the flow recorded properly and wo
 
 ![image](/images/wedding_post/results.png)
 
+**Waiting for the Monitor to trigger**  
+
 Later that very evening, to my amazement the check triggered a failure! The site was showing that the “SOLD OUT” button was no longer there, meaning it had been replaced with the “Add to Basket” button instead!
 
 ![image](/images/wedding_post/email.png)
 
-Unfortunately - I wasn’t checking my emails at 21:39!!! However, when I came in to work the next morning and checked my emails, I noticed it, checked it in the Datadog UI and the check was still failing, meaning they were still available:
+Unfortunately - I wasn’t checking my emails at 21:39!!! When I came in to work the next morning and noticed it, I immediately checked the Datadog UI and sure enough the test was still failing, meaning they were still available:
 
 ![image](/images/wedding_post/failure.png)
 
-As you can see from the below, after I made my purchase (around 08:16), by the time my check ran again (just before 09:00) it resolved back to the “OK” state - meaning they were out of stock again! I’d managed to grab the only pair that had become available!
+I then jumped to action and made the purchase, as you can see from the below, after I made my purchase (around 08:16), by the time my check ran again (just before 09:00) it resolved back to the “OK” state - meaning they were out of stock again! I’d managed to grab the only pair that had become available!
 
 ![image](/images/wedding_post/uptime.png)
