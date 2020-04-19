@@ -30,4 +30,4 @@ Look. It's hard enough writing blog post content, let alone the story of my life
 - Joined the rocketship startup [Datadog](https://www.datadoghq.com/){:target="blank"} in July 2018
 - Wrote this About page
 
-I am engaged to my university sweetheart, we have been together for coming up 10 years having met in the first term of university and are due to get married in early 2020! She tolerates my obsession with technology - just.
+I am married to my university sweetheart, we have been together for 10 years having met in the first term of university! She tolerates my obsession with technology - just.
